@@ -1,0 +1,34 @@
+<!ELEMENT clase (informacion_general, profesores, estudiantes, horarios, materiales)>
+<!ELEMENT informacion_general (codigo, nombre, descripcion, semestre)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT semestre (#PCDATA)>
+
+<!ELEMENT profesores (profesor+)>
+<!ELEMENT profesor (nombre, apellido, correo, especialidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT especialidad (#PCDATA)>
+
+<!ELEMENT estudiantes (estudiante+)>
+<!ELEMENT estudiante (nombre, apellido, matricula, calificaciones)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT calificaciones (calificacion+)>
+<!ELEMENT calificacion (evaluacion, nota)>
+<!ELEMENT evaluacion (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+
+<!ELEMENT horarios (horario+)>
+<!ELEMENT horario (dia, hora_inicio, hora_fin, aula)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora_inicio (#PCDATA)>
+<!ELEMENT hora_fin (#PCDATA)>
+<!ELEMENT aula (#PCDATA)>
+
+<!ELEMENT materiales (material+)>
+<!ELEMENT material (titulo, tipo, link)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT link (#PCDATA)>

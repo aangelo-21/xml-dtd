@@ -1,0 +1,85 @@
+<!DOCTYPE clase SYSTEM "clase.dtd">
+<clase>
+    <informacion_general>
+        <codigo>CS202</codigo>
+        <nombre>Estructuras de Datos</nombre>
+        <descripcion>Curso avanzado sobre estructuras de datos como listas, pilas y árboles.</descripcion>
+        <semestre>2024-1</semestre>
+    </informacion_general>
+    
+    <profesores>
+        <profesor>
+            <nombre>María</nombre>
+            <apellido>Fernández</apellido>
+            <correo>maria.fernandez@universidad.edu</correo>
+            <especialidad>Algoritmos</especialidad>
+        </profesor>
+        <profesor>
+            <nombre>Carlos</nombre>
+            <apellido>Ruiz</apellido>
+            <correo>carlos.ruiz@universidad.edu</correo>
+            <especialidad>Programación</especialidad>
+        </profesor>
+    </profesores>
+    
+    <estudiantes>
+        <estudiante>
+            <nombre>Lucía</nombre>
+            <apellido>Pérez</apellido>
+            <matricula>20230001</matricula>
+            <calificaciones>
+                <calificacion>
+                    <evaluacion>Parcial 1</evaluacion>
+                    <nota>85</nota>
+                </calificacion>
+                <calificacion>
+                    <evaluacion>Parcial 2</evaluacion>
+                    <nota>90</nota>
+                </calificacion>
+            </calificaciones>
+        </estudiante>
+        <estudiante>
+            <nombre>Juan</nombre>
+            <apellido>Martínez</apellido>
+            <matricula>20230002</matricula>
+            <calificaciones>
+                <calificacion>
+                    <evaluacion>Parcial 1</evaluacion>
+                    <nota>78</nota>
+                </calificacion>
+                <calificacion>
+                    <evaluacion>Parcial 2</evaluacion>
+                    <nota>82</nota>
+                </calificacion>
+            </calificaciones>
+        </estudiante>
+    </estudiantes>
+    
+    <horarios>
+        <horario>
+            <dia>Lunes</dia>
+            <hora_inicio>08:00</hora_inicio>
+            <hora_fin>10:00</hora_fin>
+            <aula>A101</aula>
+        </horario>
+        <horario>
+            <dia>Miércoles</dia>
+            <hora_inicio>08:00</hora_inicio>
+            <hora_fin>10:00</hora_fin>
+            <aula>A101</aula>
+        </horario>
+    </horarios>
+    
+    <materiales>
+        <material>
+            <titulo>Apuntes de Listas</titulo>
+            <tipo>PDF</tipo>
+            <link>https://universidad.edu/materiales/listas.pdf</link>
+        </material>
+        <material>
+            <titulo>Ejercicios de Árboles</titulo>
+            <tipo>Documento</tipo>
+            <link>https://universidad.edu/materiales/arboles.docx</link>
+        </material>
+    </materiales>
+</clase>
